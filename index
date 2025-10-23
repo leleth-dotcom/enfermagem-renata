@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renata Dias | Enfermagem Domiciliar</title>
+  style.css
+</head>
+<body>
+  <div class="tabs">
+    <button class="tab-button active" onclick="showTab('agendamento')">Agendamento</button>
+    <button class="tab-button" onclick="showTab('servicos')">Serviços e Preços</button>
+  </div>
+
+  <div id="agendamento" class="tab-content active">
+    <h3>Agende sua visita</h3>
+    <form>
+      <input type="text" name="nome" placeholder="Nome completo" required>
+      <input type="tel" name="telefone" placeholder="Telefone para contato" required>
+      <select name="tipo" required>
+        <option value="">Tipo de atendimento</option>
+        <option>Curativo</option>
+        <option>Banho com auxílio + Curativo</option>
+        <option>Acompanhamento domiciliar diurno (12h)</option>
+        <option>Acompanhamento domiciliar noturno (12h)</option>
+        <option>Pacote: 4 diurnos + 4 noturnos</option>
+        <option>Pacote: 4 diurnos</option>
+        <option>Pacote: 4 noturnos</option>
+      </select>
+      <input type="date" name="data" required>
+      <input type="time" name="horario" required>
+      <button type="submit">Confirmar</button>
+    </form>
+    <div class="social-buttons">
+      <a class="whatsapp" href="https://wa.me/5514981066366?text=Olá,%20vim%20do%20site%20e%20gostaria%20de%20mais%20sApp</a>
+      <a class="instagram" href="https.renatadiasVer Instagram</a>
+    </div>
+  </div>
+
+  <div id="servicos" class="tab-content">
+    <h3>Serviços e Preços</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Serviço</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Realização ou troca de curativos</td><td>R$ 50,00</td></tr>
+        <tr><td>Auxílio no banho + curativo</td><td>R$ 100,00</td></tr>
+        <tr><td>Aplicação de medicação intramuscular</td><td>R$ 50,00</td></tr>
+        <tr><td>Administração de medicação endovenosa</td><td>R$ 100,00</td></tr>
+        <tr><td>Acompanhamento domiciliar diurno (12h)</td><td>R$ 180,00</td></tr>
+        <tr><td>Acompanhamento domiciliar noturno (12h)</td><td>R$ 200,00</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  script.js</script>
+</body>
+</html>
